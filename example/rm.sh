@@ -1,3 +1,4 @@
+$ORIGIN_FOLDER
 DIR_DEST=/tmp/newFolder/
 VERI_DIR_DEST=`ls -l $DIR_DEST`
 
