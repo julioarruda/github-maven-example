@@ -1,5 +1,4 @@
-$ORIGIN_FOLDER
-$DIR_DEST
+echo "Iniciando o Processo de Implantação em ambiente Linux"
 VERI_DIR_DEST=`ls -l $DIR_DEST`
 
 
@@ -14,6 +13,8 @@ else
 echo " Diretório $DIR_DEST existe"
 
 fi
+
+echo "Iniciando a Cópia dos Arquivos"
 
 
 cp -R $ORIGIN_FOLDER $DIR_DEST
