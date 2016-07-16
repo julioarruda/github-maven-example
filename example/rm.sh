@@ -4,7 +4,7 @@ VERI_DIR_DEST=`ls -l $DIR_DEST`
 
 if [ $? = 2 ]; then
 
-mkdir $DIR_DEST
+mkdir -p $DIR_DEST
 chmod 0777 $DIR_DEST
 echo "Criado diretótio $DIR_DEST"
 
