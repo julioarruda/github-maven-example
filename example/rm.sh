@@ -1,6 +1,7 @@
 DIR_DEST=/tmp/newFolder/
 VERI_DIR_DEST=`ls -l $DIR_DEST`
 
+
 if [ $? = 2 ]; then
 
 mkdir $DIR_DEST
@@ -14,4 +15,4 @@ echo " Diretório $DIR_DEST existe"
 fi
 
 
-cp -R '$(System.DefaultWorkingDirectory)/New Maven definition 1/drop/example/target/' $DIR_DEST
+cp -R $ORIGIN_FOLDER $DIR_DEST
